@@ -18,8 +18,8 @@ export default function Logo({
 }) {
     return (
         <DynamicImage
-            lightSrc="/images/android-chrome-512x512.png"
-            darkSrc="/images/android-chrome-512x512.png"
+            lightSrc="/images/logo.png"
+            darkSrc="/images/logo.png"
             alt="Logo"
             width={width}
             height={height}
@@ -42,7 +42,7 @@ export function Brand({ className }: BrandProps) {
                 className="relative flex items-center gap-2 p-2 rounded-xl bg-card/50 backdrop-blur-sm"
             >
                 <div className="flex items-center gap-2 z-10">
-                    <Logo width={32} />
+                    <Logo width={48} />
                     {/* <Pill className="h-5 w-5" /> */}
                 </div>
                 <BorderBeam

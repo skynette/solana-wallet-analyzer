@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     },
     icons: {
         icon: '/favicon.ico',
-        shortcut: '/favicon-16x16.png',
-        apple: '/apple-touch-icon.png',
+        shortcut: '/favicon.svg',
+        apple: '/favicon.svg',
         other: {
-            rel: 'apple-touch-icon-precomposed',
-            url: '/apple-touch-icon-precomposed.png'
+            rel: 'favicon.svg',
+            url: '/favicon.svg'
         }
     },
 };
